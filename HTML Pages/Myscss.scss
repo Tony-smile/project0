@@ -1,0 +1,26 @@
+
+
+div {
+  font-size: 18px;
+
+  p {
+    color: tomato;
+  }
+
+  li {
+    color: peru;
+  }
+}
+%message {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+.trust {
+  @extend %message;
+  background-color: green;
+}

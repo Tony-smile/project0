@@ -1,5 +1,5 @@
 h1{
-  color:#d1320f;
+  color:white;
 }
 
 h2{
@@ -8,26 +8,50 @@ h2{
 p{
   color: blue;
 }
+#header{
+  color: #850812; 
+}
+.cl {
+  border: 2px
+  
+}
+body{
+  background-color:#c9bbb7;
+}
    .nav-link {
-     background-color: blue;
      overflow: hidden;
-   }
-
-   .nav-link a {
-     float: left;
-     color: #f2f2f2;
-     text-align: center;
+     float: center;
+     text-align: rightr;
      padding: 14px 16px;
      text-decoration: none;
      font-size: 28px;
    }
 
-   .nav-link a:hover {
+   .nav-link :hover {
      background-color: #237805;
-     color: black;
+     color: white;
    }
 
-   .n a.active {
+   .nav-link :active {
      background-color: #4CAF50;
      color: #450d44;
+     }
+     .jumbotron{
+       background-color:orange ;
+       color: white;
+       padding-top: 10px;
+     }
+     .bar{
+       color: white; 
+     }
+     @media only screen and (max-width: 768px) {
+       [class*="col-"] {
+         width: 100%;
+       }
+     }
+     #myButton{
+      background-color: orange;
+      padding: 10px;
+      text-align: center;
+      color: green;
      }
