@@ -8,12 +8,12 @@ h2{
 p{
   color: blue;
 }
-   .topnav {
-     background-color: #a80d02;
+   .nav-link {
+     background-color: blue;
      overflow: hidden;
    }
 
-   .topnav a {
+   .nav-link a {
      float: left;
      color: #f2f2f2;
      text-align: center;
@@ -22,12 +22,12 @@ p{
      font-size: 28px;
    }
 
-   .topnav a:hover {
+   .nav-link a:hover {
      background-color: #237805;
      color: black;
    }
 
-   .topnav a.active {
+   .n a.active {
      background-color: #4CAF50;
      color: #450d44;
      }
