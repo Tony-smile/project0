@@ -1,131 +1,30 @@
-h1{
-  color:white;
+h1 {
+  font-size: 14px;
+  color: White;
+}
+
+div {
+  font-size: 18px;
+}
+div p {
+  color: tomato;
+}
+div li {
+  color: peru;
+}
+
+.trust {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
   text-align: center;
 }
 
-h2{
-  color: blue;
+.trust {
+  background-color: green;
 }
-p{
-  color: blue;
-}
-#header{
-  color: #850812; 
-}
-.cl {
-  border: 2px
-  
-}
-body{
-  background-color:#c9bbb7;
-}
-   .nav-link {
-     overflow: hidden;
-     float: center;
-     text-align: rightr;
-     padding: 14px 16px;
-     text-decoration: none;
-     font-size: 28px;
-   }
 
-   .nav-link :hover {
-     background-color: #237805;
-     color: white;
-   }
-
-   .nav-link :active {
-     background-color: #4CAF50;
-     color: #450d44;
-     }
-     .jumbotron{
-       background-color:orange ;
-       color: white;
-       padding-top: 10px;
-     }
-     .bar{
-       color: white; 
-     }
-     @media only screen and (max-width: 768px) {
-       [class*="col-"] {
-         width: 100%;
-       }
-     }
-     #myButton{
-      background-color: orange;
-      padding: 10px;
-      text-align: center;
-      color: green;
-     }
-     y {
-       background: #222;
-       margin-top: 20px;
-       font-family: arial;
-       color: white;
-     }
-     .navbar{
-         width: 100%;
-         height: 80px;
-         padding: 12px 20px;
-         box-sizing: border-box;
-         border: 2px solid #ccc;
-         border-radius: 4px;
-         background-color: #f8f8f8;
-         resize: none;
-     }
-     .thumbnails img {
-       height: 80px;
-       border: 4px solid #555;
-       padding: 1px;
-       margin: 0 10px 10px 0;
-     }
-     
-     .thumbnails img:hover {
-       border: 4px solid #00ccff;
-     }
-     
-     .preview img {
-       border: 4px solid #444;
-       padding: 1px;
-       width: 100%;
-     }
-     #navbarNavDropdown{
-       background-color: #237805;
-       overflow: hidden;
-       float: center;
-       text-align: right;
-       padding: 14px 16px;
-       text-decoration: none;
-       font-size: 28px;
-     }
-     .form-inline{
-       width: 100%;
-       height:50%;
-       box-sizing: border-box;
-       border: 2px solid #ccc;
-       border-radius: 4px;
-       background-color: #f8f8f8;
-       resize: none;
-     }
-     .fa {
-       padding: 10px;
-       font-size: 100px;
-       width: 50px;
-       text-align: center;
-       text-decoration: none;
-       margin: 5px 2px;
-     }
-     .fa:hover {
-       opacity: 0.7;
-     }
-     .fa-instagram {
-       background: tomato;
-       color: white;
-     }
-     lead{
-       font-size: 28;
-       text-align: center;
-       color: #850e05;
-     }
-     td{
-       color: white;
-     }
+/*# sourceMappingURL=Mycss.css.map */
