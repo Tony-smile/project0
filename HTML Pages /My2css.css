@@ -1,0 +1,30 @@
+h1 {
+  font-size: 14px;
+  color: White;
+}
+
+div {
+  font-size: 18px;
+}
+div p {
+  color: tomato;
+}
+div li {
+  color: peru;
+}
+
+.trust {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid bold tomato;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.trust {
+  background-color: green;
+}
+
+/*# sourceMappingURL=My2css.css.map */
